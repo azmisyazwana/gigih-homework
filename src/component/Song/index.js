@@ -2,12 +2,15 @@ import React from "react";
 
 function Song(props){
     return(
-        <div>
-            <img src={props.img} />
-            <p>{props.title}</p>
-            <p>{props.artist}</p>
-            <button>Select</button>
-        </div>
+        // <div>
+        <tr>
+            <td><p>{props.no}</p></td>
+            <td><p>{props.title}</p></td>
+            <td><img src={props.img} /></td>
+            <td><p>{props.artist}</p></td>
+            <td><button>Select</button></td>
+        </tr>
+        // </div>
     )
 }
 
