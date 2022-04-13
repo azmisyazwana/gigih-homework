@@ -1,20 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Song from './component/Song';
-import data from './Data/data';
-import Track from './component/Track';
-import { useState, useEffect } from 'react';
-import Login from './pages/Login';
-import Search from './component/Search/Search';
-import Home from './pages/Home'
+import './App.css'
+import React from 'react'
+import Navigation from './pages/navigation'
 
-function App() {
-
+function App () {
   return (
-    <div className='app'>
-      <Home/>
-    </div>
-  ) 
+    <>
+      <Navigation/>
+    </>
+  )
 }
 
-export default App;
+export default App
